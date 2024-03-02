@@ -1,0 +1,28 @@
+begin test0()
+构造函数12 LINE 38
+拷贝构造函数12 LINE 45
+析构函数12 LINE 109
+构造函数34 LINE 38
+构造函数56 LINE 38
+拷贝赋值函数12 LINE 66
+析构函数12 LINE 109
+析构函数34 LINE 109
+析构函数12 LINE 109
+
+begin test1()
+构造函数78 LINE 38
+移动构造函数78 LINE 52
+开始输出v1
+78 LINE 117
+开始输出v1
+开始输出v2
+78 LINE 117
+析构函数78 LINE 109
+析构函数 LINE 105
+
+begin test2()
+构造函数9 LINE 38
+构造函数34 LINE 38
+移动赋值函数34 LINE 84
+析构函数 LINE 105
+析构函数34 LINE 109

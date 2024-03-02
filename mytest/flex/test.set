@@ -1,0 +1,9 @@
+A=[a,b,c,d,z]
+B=[c,d,e, f ] // test comment
+C=[e,f,g,h,z]
+D=[x,y,z]
+
+E = A ¡È B ¡É C - A ¡É B ¡È D
+
+PRINT A
+PRINT E
