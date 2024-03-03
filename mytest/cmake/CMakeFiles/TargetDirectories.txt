@@ -1,0 +1,3 @@
+/data1/home/brooklv/mytest/cmake/CMakeFiles/app.dir
+/data1/home/brooklv/mytest/cmake/CMakeFiles/edit_cache.dir
+/data1/home/brooklv/mytest/cmake/CMakeFiles/rebuild_cache.dir

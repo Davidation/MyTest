@@ -1,0 +1,499 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Linux - 3.10.106-1-tlinux2_kvm_guest-0024 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /data1/home/brooklv/mytest/cmake/build/CMakeFiles/3.27.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /data1/home/brooklv/mytest/cmake/build/CMakeFiles/3.27.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ"
+      binary: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ'
+        
+        Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_efb1f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_efb1f.dir/build.make CMakeFiles/cmTC_efb1f.dir/build
+        gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ'
+        Building C object CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -c /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/cc1 -quiet -v /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -auxbase-strip CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFvbji3.s
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include
+         /usr/include
+        End of search list.
+        GNU C (GCC) version 4.4.6 20110731 (Red Hat 4.4.6-4) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.4.6 20110731 (Red Hat 4.4.6-4), GMP version 4.3.1, MPFR version 2.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3e796677c06b17ac9b8b63e00fa1bed0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic'
+         as -V -Qy -o CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o /tmp/ccFvbji3.s
+        GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.28.el6 20091009
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic'
+        Linking C executable cmTC_efb1f
+        /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efb1f.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -o cmTC_efb1f 
+        Using built-in specs.
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_efb1f' '-mtune=generic'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_efb1f /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../.. CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/local/include;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_efb1f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_efb1f.dir/build.make CMakeFiles/cmTC_efb1f.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-QZBKrZ']
+        ignore line: [Building C object CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -c /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c c++ objc obj-c++ java fortran ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/cc1 -quiet -v /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -auxbase-strip CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFvbji3.s]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (GCC) version 4.4.6 20110731 (Red Hat 4.4.6-4) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.4.6 20110731 (Red Hat 4.4.6-4)  GMP version 4.3.1  MPFR version 2.4.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3e796677c06b17ac9b8b63e00fa1bed0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic']
+        ignore line: [ as -V -Qy -o CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o /tmp/ccFvbji3.s]
+        ignore line: [GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.28.el6 20091009]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic']
+        ignore line: [Linking C executable cmTC_efb1f]
+        ignore line: [/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efb1f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -o cmTC_efb1f ]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c c++ objc obj-c++ java fortran ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_efb1f' '-mtune=generic']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_efb1f /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../.. CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_efb1f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..]
+          arg [CMakeFiles/cmTC_efb1f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8"
+      binary: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8'
+        
+        Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_165ff/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_165ff.dir/build.make CMakeFiles/cmTC_165ff.dir/build
+        gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8'
+        Building CXX object CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -c /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/cc1plus -quiet -v -D_GNU_SOURCE /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -auxbase-strip CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccWdQOs7.s
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6
+         /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/backward
+         /usr/local/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include
+         /usr/include
+        End of search list.
+        GNU C++ (GCC) version 4.4.6 20110731 (Red Hat 4.4.6-4) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.4.6 20110731 (Red Hat 4.4.6-4), GMP version 4.3.1, MPFR version 2.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dfb7ca83ca2f15d9ce2580a1facec6a3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic'
+         as -V -Qy -o CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWdQOs7.s
+        GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.28.el6 20091009
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic'
+        Linking CXX executable cmTC_165ff
+        /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_165ff.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_165ff 
+        Using built-in specs.
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_165ff' '-shared-libgcc' '-mtune=generic'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_165ff /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../.. CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/backward]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6] ==> [/usr/include/c++/4.4.6]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/x86_64-redhat-linux] ==> [/usr/include/c++/4.4.6/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/backward] ==> [/usr/include/c++/4.4.6/backward]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/4.4.6;/usr/include/c++/4.4.6/x86_64-redhat-linux;/usr/include/c++/4.4.6/backward;/usr/local/include;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_165ff/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_165ff.dir/build.make CMakeFiles/cmTC_165ff.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-ZkRIr8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -c /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c c++ objc obj-c++ java fortran ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/cc1plus -quiet -v -D_GNU_SOURCE /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -auxbase-strip CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccWdQOs7.s]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../include/c++/4.4.6/backward]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 4.4.6 20110731 (Red Hat 4.4.6-4) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.4.6 20110731 (Red Hat 4.4.6-4)  GMP version 4.3.1  MPFR version 2.4.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dfb7ca83ca2f15d9ce2580a1facec6a3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic']
+        ignore line: [ as -V -Qy -o CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWdQOs7.s]
+        ignore line: [GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.28.el6 20091009]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic']
+        ignore line: [Linking CXX executable cmTC_165ff]
+        ignore line: [/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_165ff.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_165ff ]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c c++ objc obj-c++ java fortran ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.4.6 20110731 (Red Hat 4.4.6-4) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_165ff' '-shared-libgcc' '-mtune=generic']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_165ff /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../.. CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.6/collect2] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_165ff] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..]
+          arg [CMakeFiles/cmTC_165ff.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.6]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/4.4.6/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.4.6;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh"
+      binary: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh'
+        
+        Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1e193/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1e193.dir/build.make CMakeFiles/cmTC_1e193.dir/build
+        gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh'
+        Building CXX object CMakeFiles/cmTC_1e193.dir/feature_tests.cxx.o
+        /usr/bin/c++   -std=c++0x -o CMakeFiles/cmTC_1e193.dir/feature_tests.cxx.o -c /data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh/feature_tests.cxx
+        Linking CXX executable cmTC_1e193
+        /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e193.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_1e193.dir/feature_tests.cxx.o -o cmTC_1e193 
+        gmake[1]: Leaving directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-kW7uEh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:137 (_record_compiler_features_cxx)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q"
+      binary: "/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q'
+        
+        Run Build Command(s): /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3526b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3526b.dir/build.make CMakeFiles/cmTC_3526b.dir/build
+        gmake[1]: Entering directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q'
+        Building CXX object CMakeFiles/cmTC_3526b.dir/feature_tests.cxx.o
+        /usr/bin/c++   -std=c++98 -o CMakeFiles/cmTC_3526b.dir/feature_tests.cxx.o -c /data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q/feature_tests.cxx
+        Linking CXX executable cmTC_3526b
+        /data1/home/brooklv/.Install/cmake-3.27.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3526b.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_3526b.dir/feature_tests.cxx.o -o cmTC_3526b 
+        gmake[1]: Leaving directory `/data1/home/brooklv/mytest/cmake/build/CMakeFiles/CMakeScratch/TryCompile-pdRo2q'
+        
+      exitCode: 0
+...
