@@ -10,6 +10,8 @@ static ucontext_t uctx_main, uctx_func1, uctx_func2;
 static void func1(void)
 {
    printf("func1\n");
+	// 注意 这里把u2的link关了是无效的,看起来应该是swapcontext时候就已经记录了uc_link
+	uctx_func2.uc_link = NULL;
    if (swapcontext(&uctx_func1, &uctx_func2) == -1)
        handle_error("swapcontext");
    printf("func1 after\n");
