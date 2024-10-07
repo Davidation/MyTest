@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
-
 import ssl
 import websocket
 import json
@@ -19,6 +18,6 @@ def on_message(ws, message):
 
 if __name__ == "__main__":
     ws = websocket.WebSocketApp(
-        "ws://api.gemini.com/v1/marketdata/btcusd?top_of_book=true&offers=true",
+        "wss://api.gemini.com/v1/marketdata/btcusd?top_of_book=true&offers=true",
         on_message=on_message)
     ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE})

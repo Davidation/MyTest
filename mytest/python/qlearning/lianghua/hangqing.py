@@ -68,7 +68,7 @@ class Crawler:
         self.ws.run_forever(sslopt={'cert_reqs': ssl.CERT_NONE})
 
     def on_message(self, message):
-        pdb.get_trace()
+        #pdb.get_trace()
         # 对收到的信息进行处理，然后送给 orderbook
         data = json.loads(message)
         for event in data['events']:
