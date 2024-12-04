@@ -1,0 +1,46 @@
+ssss pid=3774704 generate_flag
+ssss pid=3774709 1.fk
+touch1.fk
+ssss pid=3774717 2.fk
+touch2.fk
+ssss pid=3774725 3.fk
+touch3.fk
+ssss pid=3774732 4.fk
+touch4.fk
+ssss pid=3774739 5.fk
+touch5.fk
+ssss pid=3774746 6.fk
+touch6.fk
+ssss pid=3774752 7.fk
+touch7.fk
+ssss pid=3774760 8.fk
+touch8.fk
+ssss pid=3774767 9.fk
+touch9.fk
+uuuu 1.fk pid=3774709 1732293584 + 1 = 1732293585 make
+uuuu 2.fk pid=3774717 1732293584 + 1 = 1732293585 make
+ssss pid=3774782 10.fk
+touch10.fk
+uuuu 3.fk pid=3774725 1732293584 + 1 = 1732293585 make
+ssss pid=3774790 11.fk
+touch11.fk
+uuuu 4.fk pid=3774732 1732293584 + 1 = 1732293585 make
+ssss pid=3774798 12.fk
+touch12.fk
+uuuu 5.fk pid=3774739 1732293584 + 1 = 1732293585 make
+ssss pid=3774807 13.fk
+touch13.fk
+uuuu 6.fk pid=3774746 1732293584 + 1 = 1732293585 make
+ssss pid=3774817 14.fk
+touch14.fk
+uuuu 7.fk pid=3774752 1732293584 + 1 = 1732293585 make
+ssss pid=3774826 15.fk
+touch15.fk
+uuuu 8.fk pid=3774760 1732293584 + 1 = 1732293585 make
+ssss pid=3774834 16.fk
+touch16.fk
+uuuu 9.fk pid=3774767 1732293584 + 1 = 1732293585 make
+ssss pid=3774843 17.fk
+touch17.fk
+ssss pid=3774852 18.fk
+touch18.fk
