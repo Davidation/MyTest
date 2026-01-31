@@ -2,7 +2,7 @@
 
 # 同花顺API配置
 THS_API_CONFIG = {
-    'app_key': 'your_app_key',  # 替换为实际的App Key
+    'app_key': 'your_',  # 替换为实际的App Key
     'app_secret': 'your_app_secret',  # 替换为实际的App Secret
     'account_id': 'your_account_id',  # 替换为实际的账户ID
     'password': 'your_password',  # 替换为实际的密码
