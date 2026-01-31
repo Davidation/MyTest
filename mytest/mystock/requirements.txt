@@ -1,0 +1,17 @@
+# 核心依赖
+pandas
+numpy
+requests
+pyyaml
+
+# 技术指标计算
+TA-Lib
+
+# 数据处理
+pandas-datareader
+
+# 日志管理
+logging
+
+# 同花顺OpenAPI (根据实际API包名调整)
+# 注：需要从同花顺官方获取对应的Python SDK
